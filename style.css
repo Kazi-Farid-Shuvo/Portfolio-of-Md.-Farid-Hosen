@@ -739,6 +739,9 @@ header.sticky .menu--1 svg path{
     color: var(--lightGreen);
 }
 
+/* Experience Section*/
+
+
 
 /* Skills Section */
 .skills{
@@ -1461,7 +1464,7 @@ form .inputField{
 /* WhatsApp Floating Button */
 .whatsapp-float {
     position: fixed;
-    bottom: 100px;
+    bottom: 10px;
     right: 20px;
     z-index: 10000;
     -webkit-animation: bigsmall 3s linear infinite;
