@@ -740,7 +740,11 @@ header.sticky .menu--1 svg path{
 }
 
 /* Experience Section*/
-
+/* .experience > .experience_working{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 
 /* Skills Section */
