@@ -740,11 +740,24 @@ header.sticky .menu--1 svg path{
 }
 
 /* Experience Section*/
-/* .experience > .experience_working{
+.experience_working{
+    font-size: 40px;
+    color: var(--lightGreen);
+    letter-spacing: 1.3px;
+    margin-bottom: 25px;
+    white-space: nowrap;
+}
+.experience-eduCardContainer{
+    height: 450px;
+    overflow-y: scroll;
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+    align-content: center;
+}
+.experience-eduCardContainer::-webkit-scrollbar{
+    width: 0;
+}
 
 
 /* Skills Section */
@@ -847,10 +860,6 @@ header.sticky .menu--1 svg path{
             transform: translateX(50%) rotate(45deg);
     z-index: 1;
 }
-
-
-
-
 
 
 /* Services Section */
