@@ -744,7 +744,6 @@ header.sticky .menu--1 svg path{
     font-size: 40px;
     color: var(--lightGreen);
     letter-spacing: 1.3px;
-    margin-bottom: 25px;
     white-space: nowrap;
 }
 .experience-eduCardContainer{
@@ -754,6 +753,8 @@ header.sticky .menu--1 svg path{
     justify-content: center;
     align-items: center;
     align-content: center;
+    gap: 20px
+    
 }
 .experience-eduCardContainer::-webkit-scrollbar{
     width: 0;
